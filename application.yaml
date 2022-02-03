@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/butterlyextreme/ixaris-app-config.git
+    repoURL: https://github.com/butterlyextreme/ixaris-config.git
     targetRevision: HEAD
-    path: dev
+    path: k8s/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: ixaris
